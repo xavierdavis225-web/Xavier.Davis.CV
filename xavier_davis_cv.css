@@ -1,0 +1,190 @@
+body { 
+    font-family: Arial, helvetica, sans-serif;
+    Background: linear-gradient(135deg, #0f1729, #1e293b, #334155);
+    color: #1f2937;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 30px;
+
+}
+body > * {
+    /* max width of 1000px and centered on the page */
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    /* Blue gradient with a subtle shadow box */
+    background: linear-gradient(135deg, #111827, #1e3a8a);
+    color: #ffffff;
+    text-align: center;
+    /* padding of 35px on top and 20px on the sides, and 10px on the bottom */
+    padding: 35px 20px 10px 20px;
+    margin-bottom: 0px;
+    /* border radius of 18px on the top left and top right corners, and 0 on the bottom corners */
+    border-radius: 18px 18px 0 0;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+body > p:first-of-type {
+    /* blue gradient with an overall font size of 18px and a light blue/white text color */
+    background: linear-gradient(135deg, #111827, #1e3a8a);
+    text-align: center;
+    font-size: 18px;
+    color: #dbeafe;
+    /* padding of 20px on the sides and 35px on the bottom, and 0 on the top */
+    padding: 0 20px 35px 20px;
+    /* border radius of 18px on the bottom left and bottom right corners, and 0 on the top corners */
+    border-radius: 0 0 18px 18px;
+    /* margin of 0 on the top and 30px on the bottom */
+    margin-top: 0px;
+
+}
+
+h2 {
+    /* shadow box with a light blue background and a dark blue border, border size 2px, black text*/
+    color: #0f172a;
+    background-color: #e0f2fe;
+    /* padding of 12px on all sides */
+    padding: 12px;
+    border: 2px solid #2563eb;
+    /* border radius of 10px on all corners */
+    border-radius: 10px;
+    /* margin of 35px on the top and 5px on the bottom */
+    margin-top: 35px;
+    /* box shadow with a light gray color, 0px horizontal offset, 2px vertical offset, and 6px blur radius */
+    box-shadow: 0 2px 6px #00000026;
+}
+
+h3 {
+    /* shadow box with a light blue background and a dark blue border, border size 2px, dark blue text*/
+    color: #1e3a8a;
+    margin-bottom: 5px;
+    border: 2px solid #2563eb;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #eff6ff;
+    box-shadow: 0 2px 6px #00000026;
+}
+
+p,
+ul,
+table,
+form {
+    /* shadow box with a white background and a light gray border, border size 2px, black text */
+    background-color: #ffffff;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #0000001f;
+}
+
+p{
+    /* margin of 0 on the top and 18px on the bottom */
+    margin-bottom: 18px;
+}
+ul {
+    /* margin of 0 on the top and 18px on the bottom, and padding of 0 on the left and 18px on the right */
+    padding-left: 40px;
+}
+
+li {
+    /* margin of 0 on the top and 8px on the bottom */
+    margin-bottom: 8px;
+}
+
+a {
+    color: #1d4ed8;
+    /* font size of 16px and bold text */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    /* 2px solid light blue with a margin of 30px on the top and bottom */
+    border: none;
+    border-top: 2px solid #60a5fa;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Table with a width of 100%, collapsed borders, and hidden overflow */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+th {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 14px;
+    text-align: left;
+}
+td {
+    padding: 14px;
+    background-color: #f8fafc;
+}
+tr:nth-child(even) td {
+    background-color: #e0f2fe;
+}
+form {
+    border: 2px solid #93c5fd;
+}
+label {
+    font-weight: bold;
+    color: #0f172a;
+}
+
+/* Input fields, select dropdowns, and textareas with a light gray border, rounded corners, and padding */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #94a3b8;
+    border-radius: 15px;
+}
+/* Focus state with a blue border and no outline */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #eff6ff;
+    outline: none;
+    border: 2px solid #2563eb;
+}
+/* Blue background with white text, no border, and a pointer cursor on hover */
+input[type="submit"] {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    padding: 12px 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+/* Hover effect for submit button with a darker blue background */
+input[type="submit"]:hover {
+    background-color: #2563eb;
+}
+/* Responsive design for screens smaller than 700px */
+@media (max-width: 700px) {
+    /* padding of 15px on all sides */
+    body {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    table,
+    tr,
+    th,
+    td {
+        font-size: 14px;
+    }
+}
