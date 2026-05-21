@@ -1,6 +1,7 @@
 body { 
+    /* Arial font with a fallback to Helvetica and sans-serif, a dark blue gradient background, dark gray text color, line height of 1.6, no margin, and padding of 30px on all sides */
     font-family: Arial, helvetica, sans-serif;
-    Background: linear-gradient(135deg, #0f1729, #1e293b, #334155);
+    background: linear-gradient(135deg, #0f1729, #1e293b, #334155);
     color: #1f2937;
     line-height: 1.6;
     margin: 0px;
@@ -172,7 +173,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #2563eb;
 }
-/* Responsive design for screens smaller than 700px */
+/* Responsive design for screens smaller than 700px by reducing font sizes and padding */
 @media (max-width: 700px) {
     /* padding of 15px on all sides */
     body {
