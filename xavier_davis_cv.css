@@ -28,7 +28,7 @@ h1 {
 }
 
 body > p:first-of-type {
-    /* blue gradient with an overall font size of 18px and a light blue/white text color */
+    /* blue gradient with an overall font size of 18px and a light blue/white text color for every first paragraph */
     background: linear-gradient(135deg, #111827, #1e3a8a);
     text-align: center;
     font-size: 18px;
