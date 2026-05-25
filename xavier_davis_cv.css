@@ -173,19 +173,59 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #2563eb;
 }
+
+.contact-row {
+    /* flexbox with a gap of 20px between items and wrapping on smaller screens */
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.contact-row p {
+    /* flex property to allow items to grow and shrink with a base width of 220px */
+    flex:1 1 220px;
+}
+.skills-row {
+    /* flexbox with a gap of 20px between items and wrapping on smaller screens */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.skills-row section {
+    /* flex property to allow items to grow and shrink with a base width of 300px */
+    flex: 1 1 300px;
+}
+.project-row {
+    /* flexbox with a gap of 20px between items and wrapping on smaller screens */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project-card {
+/* flex property to allow items to grow and shrink with a base width of 280px */
+    flex: 1 1 280px;
+}
 /* Responsive design for screens smaller than 700px by reducing font sizes and padding */
 @media (max-width: 700px) {
     /* padding of 15px on all sides */
-    body {
+    body 
+    {
         padding: 15px;
     }
-    h1 {
+    h1 
+    {
         font-size: 32px;
     }
     table,
     tr,
     th,
-    td {
+    td 
+    {
         font-size: 14px;
+    }
+    .contact-row,
+    .skills-row,
+    .project-row 
+    {
+        flex-direction: column;
     }
 }
