@@ -8,9 +8,9 @@ Phone: (412) 894-6279
 
 Location: Hampton Roads, VA | Suffolk, VA | Remote |
 
-LinkedIn: www.linkedin.com/in/xavier-d-459aaa13b
+LinkedIn: Linkedin
 
-GitHub: https://github.com/xavierdavis225-web
+GitHub: GitHub
 
 Professional Summary
 I am an aspiring software developer currently completing the Springboard Software Development Career Track.
@@ -24,8 +24,8 @@ Front End Developer
 Back End Developer
 Technical Skills
 Skill Areas	Skills
-Current Skills	HTML,Command Line Basics,Semantic HTML,Software Development Fundamentals,Git and GitHub
-Skills in Progress	CSS,JavaScript,Responsive Web Design,Front End Development,Full Stack Development
+Current Skills	CSS,HTML,Command Line Basics,Semantic HTML,Software Development Fundamentals,Git and GitHub
+Skills in Progress	JavaScript,Responsive Web Design,Front End Development,Full Stack Development
 Professional Experience
 Area Manager
 Amazon | Suffolk, VA | 2024 - Present
@@ -104,6 +104,18 @@ Sigma Beta Delta International Honor Society: 2024
 Eric A. and Josephine S. Walker Award: Spring 2024
 Positive Impact Award: Fall 2023
 EPIC Achievement Award: 2022
+Six Sigma Green Belt: 2025
+Amazon Area Manager of the Month "Nail the Plan": May 2026
+Marine Corps Reserve Good Conduct Medal: 2024
+Marine Corps Sea Service Ribbon: 2023
+Marine Corps Reserve Deployment Medal With M Device: 2023
+Global War on Terrorism Expeditionary Medal: 2023
+National Defense Service Medal: 2021
+Two Letters of Commendation: 2023
+Projects
+Digital CV
+Built with HTML and CSS to showcase professional experience and frontend fundamentals
+
 Leadership Strengths
 Effective Communication: Skilled in conveying ideas clearly and fostering open dialogue within teams.
 Team Building: Experienced in creating cohesive teams that work collaboratively towards common goals.
@@ -125,4 +137,20 @@ Additional Information
 Open to opportunities in Hampton Roads, VA and remote environments.
 Interested in software development, cleared technology roles, and technical operations.
 Creative background includes music production, DJ services, photography, and percussion instruction.
+Contact Me
+Name:
+Your Name
+
+Email:
+Your.Email@example.com
+
+Reason for Contact:
+
+Job Opportunity
+
+Message:
+Your message here...
+
+Submit Form:
+
 Thank you for reviewing my CV.
